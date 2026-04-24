@@ -409,7 +409,7 @@ footer { background: var(--bg); border-top: 1px solid var(--line); padding: 56px
   .btn { justify-content: center; }
 
   /* services tabs — override inline padding, hide scrollbar */
-  .svc-tabs { scrollbar-width: none; -ms-overflow-style: none; }
+  .svc-tabs { scrollbar-width: none; -ms-overflow-style: none; overflow-x: auto; overflow-y: hidden; touch-action: pan-x; }
   .svc-tabs::-webkit-scrollbar { display: none; }
   .svc-tab { padding: 16px 20px !important; min-width: 160px; }
   .svc-copy h3 { font-size: 32px; }

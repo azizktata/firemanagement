@@ -29,12 +29,14 @@ export default function WhyUs() {
       </svg>
 
       <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
-        <div className="section-head" style={{ marginBottom: "64px" }}>
-          <div className="eyebrow">
-            <span className="dot" style={{ background: "var(--accent)" }} />
-            <span className="kicker" style={{ color: "var(--fg-mute)" }}>03 — Reliability & Expertise</span>
+        <div className="section-head">
+          <div>
+            <div className="eyebrow">
+              <span className="dot" style={{ background: "var(--accent)" }} />
+              <span className="kicker" style={{ color: "var(--fg-mute)" }}>03 — Reliability & Expertise</span>
+            </div>
+            <h2 style={{ color: "var(--bg)" }}>The core purpose is <em>saving lives.</em></h2>
           </div>
-          <h2 style={{ color: "var(--bg)" }}>The core purpose is <em>saving lives.</em></h2>
         </div>
 
         <div className="why-grid">
