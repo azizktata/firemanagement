@@ -1,0 +1,162 @@
+{
+  "hero": {
+    "layout": "Full-screen hero section with background image overlay, positioned corner elements, top meta information bar, and centered content with stats grid below",
+    "title": "Fire safety, engineered with precision.",
+    "subtitle": "Accepting projects — Q2 / Q3 2026",
+    "description": "We design, inspect and commission sprinkler & fire suppression systems for pharma, aerospace and heavy industry — across Belgium, Germany and France.",
+    "ctas": [
+      {
+        "text": "Request a free audit",
+        "type": "primary",
+        "action": "contact"
+      },
+      {
+        "text": "View references",
+        "type": "ghost",
+        "action": "references"
+      }
+    ],
+    "stats": [
+      {
+        "value": "99%",
+        "label": "Sprinkler success rate — 100+ years field data"
+      },
+      {
+        "value": "2,000+",
+        "label": "Sprinkler heads designed — GSK RX395 alone"
+      },
+      {
+        "value": "4",
+        "label": "Countries with approved projects"
+      },
+      {
+        "value": "32",
+        "label": "Certifications & tools across the team"
+      }
+    ]
+  },
+  "services": {
+    "layout": "Two-column grid with interactive tabs on the left and content panel on the right showing title, description, bullet points, and visual schematic diagram",
+    "sectionTitle": "Four disciplines. One standard of work.",
+    "sectionSubtitle": "From first feasibility to final sign-off — we cover the full lifecycle of fire suppression engineering.",
+    "services": [
+      {
+        "title": "Conceptual design & feasibility.",
+        "description": "We translate a brief, a site visit and your authority's codes into a defensible design basis — risk analysis, water supply study, BOQ and tender-ready documentation."
+      },
+      {
+        "title": "Detailed 2D & 3D design.",
+        "description": "Full coordinated drawing sets produced in AutoCAD, Revit and SprinkCAD — wet, dry, pre-action double interlock and deluge systems — with hydraulic calculations to NFPA 13."
+      },
+      {
+        "title": "Independent inspections & audits.",
+        "description": "Third-party assessments against NFPA, FM Global, NBN EN, CEA 4001 and ANPI — with clear remediation paths, prioritised by risk and by what your AHJ will actually require."
+      },
+      {
+        "title": "Site follow-up & commissioning.",
+        "description": "We act as your technical agent on site — managing subcontractors, witnessing tests, signing off against the design and handing over a fully-documented, code-compliant system."
+      }
+    ]
+  },
+  "references": {
+    "layout": "Section with introductory text, two large project showcase cards with SVG schematics and overlay information, followed by a detailed reference list table and client logo grid",
+    "sectionTitle": "Project portfolio",
+    "sectionSubtitle": "Pharmaceutical GMP zones, military installations, high-value logistics. A sample of the work — full dossier on request.",
+    "projects": [
+      {
+        "title": "GSK RX395 — Fire Sprinkler System",
+        "description": "2,000+ heads across 11 alarm valve systems — wet and pre-action double interlock.",
+        "subtitle": "Pharma / GMP · 2024"
+      },
+      {
+        "title": "Belgian Air Force — Zutendaal",
+        "description": "5 km underground piping, 17 warehouses, new pump house. Full commissioning and sign-off.",
+        "subtitle": "Defence / Base · 2023"
+      }
+    ],
+    "references": [
+      {
+        "title": "GSK RX395 — Fire Sprinkler System",
+        "description": "Feasibility, conceptual design, BOQ and full 2D/3D detailed design of 11 alarm valve systems — wet and pre-action double interlock.",
+        "subtitle": "Pharma / GMP · 2024"
+      },
+      {
+        "title": "GSK WN26 — Fire Remediation",
+        "description": "Protection of GMP production areas, clean rooms and building façade. Wet, deluge and pre-action double interlock systems.",
+        "subtitle": "Pharma / GMP · 2023"
+      },
+      {
+        "title": "Belgian Air Force — Zutendaal",
+        "description": "New pump house & water tanks, 5 km underground piping, 17 warehouses, workshop, office building and medical storage. Site follow-up, testing and commissioning.",
+        "subtitle": "Defence / Base · 2023"
+      },
+      {
+        "title": "Takeda Lessines — Plant Extension",
+        "description": "Pre-action sprinkler design for a biologics production expansion. Full hydraulic model and alarm-valve coordination.",
+        "subtitle": "Pharma / GMP · 2022"
+      },
+      {
+        "title": "Cargill Ghent — Warehouse Upgrade",
+        "description": "FM Global-compliant retrofit of high-pile storage sprinklers over 18,000 m² of logistics floorplate.",
+        "subtitle": "Logistics / FMG · 2022"
+      }
+    ]
+  },
+  "standards": {
+    "layout": "Grid of standard cards showing code, name, and description, followed by a row of tool badges",
+    "sectionTitle": "Designed to the codes that get signed off.",
+    "sectionSubtitle": "Our deliverables are prepared against the specific standard your authority having jurisdiction uses — not a generic template.",
+    "standards": [
+      {
+        "title": "NFPA 13",
+        "subtitle": "Sprinkler Systems",
+        "description": "US / international reference standard for sprinkler installation design."
+      },
+      {
+        "title": "FM Global",
+        "subtitle": "Property Loss",
+        "description": "Insurance-driven datasheets for high-value and high-hazard occupancies."
+      },
+      {
+        "title": "NBN EN 12845",
+        "subtitle": "EU Sprinklers",
+        "description": "European standard for automatic sprinkler systems — design, installation & maintenance."
+      },
+      {
+        "title": "CEA 4001",
+        "subtitle": "Insurance EU",
+        "description": "Specification for sprinkler installations — European insurance framework."
+      },
+      {
+        "title": "ANPI",
+        "subtitle": "BE Certification",
+        "description": "Belgian national safety institute — approved inspection body."
+      },
+      {
+        "title": "Royal Decree",
+        "subtitle": "28 March 2014",
+        "description": "Belgian federal fire prevention legislation for workplaces."
+      },
+      {
+        "title": "EN 54",
+        "subtitle": "Detection & Alarm",
+        "description": "European standard for fire detection and fire alarm systems."
+      },
+      {
+        "title": "Zone Brabant W.",
+        "subtitle": "Local AHJ",
+        "description": "Authority having jurisdiction — Walloon Brabant fire services."
+      }
+    ]
+  },
+  "contact": {
+    "layout": "Two-column grid with contact information and details on the left, multi-step contact form on the right",
+    "title": "Tell us what you're protecting.",
+    "subtitle": "Three quick questions. You'll hear back from a senior engineer — not a form robot — within one business day.",
+    "description": "Contact information includes Belgium HQ, Tunis engineering office, response time, and NDA availability."
+  },
+  "footer": {
+    "layout": "Four-column grid with company branding, services links, company links, and office locations, followed by copyright and version information",
+    "companyDescription": "Fire safety engineering partner for demanding projects in Belgium, Germany and France. SRL · VAT BE 0712.884.901"
+  }
+}

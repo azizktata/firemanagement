@@ -107,8 +107,8 @@ export default function Services({ svcIdx, setSvcIdx }: ServicesProps) {
       <div className="wrap">
         <div className="section-head">
           <div>
-            <div className="eyebrow"><span className="dot" /><span className="kicker">02 — Capabilities</span></div>
-            <h2>Four disciplines.<br /><em>One standard</em> of work.</h2>
+            <div className="eyebrow"><span className="dot" /><span className="kicker">02 — Services</span></div>
+            <h2>Full lifecycle.<br /><em>One</em> team.</h2>
           </div>
           <p>From first feasibility to final sign-off — we cover the full lifecycle of fire suppression engineering.</p>
         </div>

@@ -2,7 +2,7 @@ import { RefObject } from "react";
 import { ArrowIcon, ChevronIcon } from "./icons";
 
 interface NavbarProps {
-  navRef: RefObject<HTMLElement>;
+  navRef: RefObject<HTMLElement | null>;
   menuOpen: boolean;
   setMenuOpen: (open: boolean) => void;
   langActive: string;

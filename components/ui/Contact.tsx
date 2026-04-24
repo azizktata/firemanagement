@@ -1,13 +1,14 @@
+import React from "react";
 import { FORM_SERVICES } from "./data";
 import { ArrowIcon, ChevronIcon } from "./icons";
 
 interface ContactProps {
   step: number;
-  setStep: (step: number) => void;
+  setStep: React.Dispatch<React.SetStateAction<number>>;
   selectedSvc: number | null;
   setSelectedSvc: (svc: number | null) => void;
   formData: { name: string; email: string; company: string; scope: string; country: string };
-  setFormData: (data: { name: string; email: string; company: string; scope: string; country: string }) => void;
+  setFormData: React.Dispatch<React.SetStateAction<{ name: string; email: string; company: string; scope: string; country: string }>>;
   submitted: boolean;
   setSubmitted: (submitted: boolean) => void;
 }
@@ -25,7 +26,7 @@ export default function Contact({ step, setStep, selectedSvc, setSelectedSvc, fo
         <div className="contact-left">
           <div className="eyebrow"><span className="dot" /><span className="kicker">06 — Start a project</span></div>
           <h2>Tell us what you&apos;re <em>protecting.</em></h2>
-          <p>Three quick questions. You&apos;ll hear back from a senior engineer — not a form robot — within one business day.</p>
+          <p>Three quick questions. You&apos;ll hear back from a senior engineer — within one business day.</p>
           <div className="contact-info">
             <div className="contact-item">
               <span className="lab">Belgium — HQ</span>
@@ -133,7 +134,7 @@ export default function Contact({ step, setStep, selectedSvc, setSelectedSvc, fo
                   <>
                     <div className="field">
                       <label>Country / Region</label>
-                      <select value={formData.country} onChange={e => setFormData(d => ({ ...d, country: e.target.value }))}>
+                      <select value={formData.country} onChange={e => setFormData(d => ({ ...d, country: e.target.value }))} style={{backgroundColor: "#2A2A2A" }}>
                         <option value="">Select…</option>
                         <option>Belgium — Flanders</option>
                         <option>Belgium — Brussels</option>

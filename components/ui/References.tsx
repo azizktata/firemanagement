@@ -3,10 +3,10 @@ import { ArrowIcon } from "./icons";
 
 export default function References() {
   const images = [
-    "/project (1).jfif", 
-    "/project (2).jfif", 
+    "/rx395.webp", 
+    "/wn26.webp", 
+    "/aps.svg", 
     "/project (3).jfif", 
-    "/project (4).jfif", 
   ];
 
   return (

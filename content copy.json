@@ -1,0 +1,156 @@
+{
+  "hero": {
+    "title": "Fire safety.\nEngineered right.",
+    "subtitle": "Accepting projects — Q2 / Q3 2026",
+    "description": "We design, inspect and commission fire suppression systems for pharma, aerospace and heavy industry — across Belgium, Germany and France.",
+    "ctas": [
+      {
+        "text": "Request a free audit",
+        "type": "primary",
+        "action": "contact"
+      },
+      {
+        "text": "See our references",
+        "type": "ghost",
+        "action": "references"
+      }
+    ],
+    "stats": [
+      {
+        "value": "99%",
+        "label": "Sprinkler suppression success rate — 100+ years of field data"
+      },
+      {
+        "value": "2,000+",
+        "label": "Sprinkler heads engineered — GSK RX395 alone"
+      },
+      {
+        "value": "4",
+        "label": "Countries with authority-approved sign-offs"
+      },
+      {
+        "value": "32",
+        "label": "Certifications across the team"
+      }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Full lifecycle.\nOne team.",
+    "sectionSubtitle": "From first feasibility to final sign-off.",
+    "services": [
+      {
+        "title": "Conceptual design & feasibility",
+        "description": "Risk analysis, water supply study, BOQ and tender-ready documentation — aligned to your authority's codes from day one."
+      },
+      {
+        "title": "Detailed 2D & 3D design",
+        "description": "Coordinated drawing sets in AutoCAD, Revit and SprinkCAD — wet, dry, pre-action and deluge — with hydraulic calculations to NFPA 13."
+      },
+      {
+        "title": "Independent inspections & audits",
+        "description": "Third-party assessments against NFPA, FM Global, NBN EN, CEA 4001 and ANPI — with clear, prioritised remediation paths."
+      },
+      {
+        "title": "Site follow-up & commissioning",
+        "description": "We manage subcontractors, witness tests and hand over a fully documented, code-compliant system."
+      }
+    ]
+  },
+  "references": {
+    "sectionTitle": "Selected\nprojects.",
+    "sectionSubtitle": "GSK. Takeda. Belgian Air Force. Cargill. Full dossier available on request.",
+    "projects": [
+      {
+        "title": "GSK RX395 — Fire Sprinkler System",
+        "description": "2,000+ heads across 11 alarm valve systems — wet and pre-action double interlock — in an active GMP environment.",
+        "subtitle": "Pharma / GMP · Belgium · 2024"
+      },
+      {
+        "title": "Belgian Air Force — Zutendaal",
+        "description": "New pump house, 5 km of underground piping, 17 warehouses. Full site follow-up and commissioning sign-off.",
+        "subtitle": "Defence · Belgium · 2023"
+      }
+    ],
+    "references": [
+      {
+        "title": "GSK RX395 — Fire Sprinkler System",
+        "description": "Feasibility, conceptual design, BOQ and full 2D/3D design of 11 alarm valve systems — wet and pre-action double interlock.",
+        "subtitle": "Pharma / GMP · Belgium · 2024"
+      },
+      {
+        "title": "GSK WN26 — Fire Remediation",
+        "description": "Protection of GMP production zones, clean rooms and building envelope. Wet, deluge and pre-action double interlock systems.",
+        "subtitle": "Pharma / GMP · Belgium · 2023"
+      },
+      {
+        "title": "Belgian Air Force — Zutendaal",
+        "description": "New pump house, water tanks, 5 km underground piping, 17 warehouses, workshop, office and medical storage. Full commissioning.",
+        "subtitle": "Defence · Belgium · 2023"
+      },
+      {
+        "title": "Takeda Lessines — Plant Extension",
+        "description": "Pre-action sprinkler design for a biologics production expansion — full hydraulic model and alarm-valve coordination.",
+        "subtitle": "Pharma / GMP · Belgium · 2022"
+      },
+      {
+        "title": "Cargill Ghent — Warehouse Retrofit",
+        "description": "FM Global-compliant retrofit of high-pile storage sprinklers across 18,000 m² of active logistics floorplate.",
+        "subtitle": "Logistics / FM Global · Belgium · 2022"
+      }
+    ]
+  },
+  "standards": {
+    "sectionTitle": "Codes that\nget signed off.",
+    "sectionSubtitle": "Prepared against the standard your AHJ requires — not a generic template.",
+    "standards": [
+      {
+        "title": "NFPA 13",
+        "subtitle": "Sprinkler Systems",
+        "description": "US and international reference standard for sprinkler installation design."
+      },
+      {
+        "title": "FM Global",
+        "subtitle": "Property Loss Prevention",
+        "description": "Insurance-driven datasheets for high-value and high-hazard occupancies."
+      },
+      {
+        "title": "NBN EN 12845",
+        "subtitle": "European Sprinkler Standard",
+        "description": "Principal European standard for automatic sprinkler system design and installation."
+      },
+      {
+        "title": "CEA 4001",
+        "subtitle": "European Insurance Framework",
+        "description": "Sprinkler installation specification for European insurance acceptance."
+      },
+      {
+        "title": "ANPI",
+        "subtitle": "Belgian Certification Body",
+        "description": "Belgium's approved fire safety inspection authority."
+      },
+      {
+        "title": "Royal Decree 28/03/2014",
+        "subtitle": "Belgian Workplace Legislation",
+        "description": "Federal fire prevention legislation for Belgian workplaces."
+      },
+      {
+        "title": "EN 54",
+        "subtitle": "Detection & Alarm",
+        "description": "European standard for fire detection and alarm systems."
+      },
+      {
+        "title": "Zone Brabant Wallon",
+        "subtitle": "Local AHJ",
+        "description": "We align with local fire services before submission — not after."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Tell us what\nyou're protecting.",
+    "subtitle": "A senior engineer responds within one business day.",
+    "description": "Share the brief — we'll tell you exactly how we can help. NDA available on request."
+  },
+  "footer": {
+    "companyDescription": "Fire safety engineering for pharmaceutical, defence and industrial projects across Belgium, Germany and France. SRL · VAT BE 0712.884.901"
+  }
+}
