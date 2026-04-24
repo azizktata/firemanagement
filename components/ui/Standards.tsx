@@ -2,11 +2,10 @@ import { STANDARDS } from "./data";
 
 export default function Standards() {
   return (
-    <section 
-      id="standards" 
-      style={{ 
-        padding: "120px 0", 
-        backgroundColor: "var(--fg)", 
+    <section
+      id="standards"
+      style={{
+        backgroundColor: "var(--fg)",
         color: "var(--bg)",
         position: "relative",
       }}
@@ -20,7 +19,7 @@ export default function Standards() {
         backgroundSize: "40px 40px" 
       }} />
 
-      <div className="wrap" style={{ position: "relative", zIndex: 1, padding: "0 40px" }}>
+      <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
         {/* <div className="section-head" style={{ marginBottom: "80px" }}>
           <div className="eyebrow">
             <span className="dot" style={{ background: "var(--accent)" }} />

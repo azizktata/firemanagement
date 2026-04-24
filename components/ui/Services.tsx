@@ -103,7 +103,7 @@ export default function Services({ svcIdx, setSvcIdx }: ServicesProps) {
   const svc = SERVICES[svcIdx];
 
   return (
-    <section id="services" style={{ padding: "110px 40px" }}>
+    <section id="services">
       <div className="wrap">
         <div className="section-head">
           <div>

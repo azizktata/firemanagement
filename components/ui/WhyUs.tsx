@@ -1,10 +1,10 @@
 export default function WhyUs() {
   return (
-    <section 
-      id="why" 
-      style={{ 
-        padding: "120px 0", 
-        backgroundColor: "var(--fg)", // Technical White
+    <section
+      id="why"
+      className="why-section"
+      style={{
+        backgroundColor: "var(--fg)",
         color: "var(--bg)",
         position: "relative",
         overflow: "hidden"
@@ -28,7 +28,7 @@ export default function WhyUs() {
         ))}
       </svg>
 
-      <div className="wrap" style={{ position: "relative", zIndex: 1, padding: "0 40px" }}>
+      <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
         <div className="section-head" style={{ marginBottom: "64px" }}>
           <div className="eyebrow">
             <span className="dot" style={{ background: "var(--accent)" }} />
@@ -37,7 +37,7 @@ export default function WhyUs() {
           <h2 style={{ color: "var(--bg)" }}>The core purpose is <em>saving lives.</em></h2>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "80px" }}>
+        <div className="why-grid">
           
           {/* Left Column: Mission & Partnerships */}
           <div>

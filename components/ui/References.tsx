@@ -10,7 +10,7 @@ export default function References() {
   ];
 
   return (
-    <section id="references" style={{ padding: "110px 0" }}>
+    <section id="references" style={{ paddingLeft: 0, paddingRight: 0 }}>
       <style dangerouslySetInnerHTML={{ __html: `
         .ref-card { cursor: pointer; }
         .ref-card:hover .card-img-container { opacity: 0.7 !important; transform: scale(1.05); }
@@ -20,7 +20,7 @@ export default function References() {
       `}} />
 
       <div className="wrap">
-        <div className="section-head" style={{ padding: "0 40px" }}>
+        <div className="section-head" style={{ padding: "0 clamp(16px, 4vw, 40px)" }}>
           <div>
             <div className="eyebrow">
               <span className="dot" />
@@ -134,7 +134,7 @@ export default function References() {
         </div>
 
         {/* Clients section */}
-        <div className="clients" style={{ padding: "20px 40px 0" }}>
+        <div className="clients" style={{ padding: "20px clamp(16px, 4vw, 40px) 0" }}>
           <div className="clients-head" style={{ borderBottom: "1px solid var(--line)", paddingBottom: "20px", marginBottom: "40px" }}>
             <span style={{ fontFamily: "var(--mono)", fontSize: "12px", textTransform: "uppercase", opacity: 0.7 }}>Clients & partners — selection</span>
             <span style={{ fontFamily: "var(--mono)", fontSize: "12px", opacity: 0.3 }}>12 / 40+</span>

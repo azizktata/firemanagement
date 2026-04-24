@@ -30,7 +30,7 @@ export default function Hero({ clock }: HeroProps) {
         <span>SINCE 2018 · SRL 0712.884.901</span>
       </div>
 
-      <div className="hero-inner" style={{ paddingTop: "80px" }}>
+      <div className="hero-inner">
         {/* <span className="hero-badge">
           <span className="live" />
           Accepting projects — Q2 / Q3 2026

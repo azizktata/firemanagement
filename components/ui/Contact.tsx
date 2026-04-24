@@ -21,7 +21,7 @@ export default function Contact({ step, setStep, selectedSvc, setSelectedSvc, fo
   };
 
   return (
-    <section id="contact" style={{ padding: "110px 40px", paddingBottom: "80px" }}>
+    <section id="contact" style={{ paddingBottom: "80px" }}>
       <div className="wrap contact-grid">
         <div className="contact-left">
           <div className="eyebrow"><span className="dot" /><span className="kicker">06 — Start a project</span></div>
